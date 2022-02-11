@@ -14,7 +14,7 @@ nunjucks.configure("views", {
   express: server,
 });
 
-server.get("/user/", (request, response) => {
+server.get("/", (request, response) => {
   response.render("index");
 });
 
