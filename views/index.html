@@ -1,26 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Milly's Server - Home</title>
-  </head>
-  <body>
-    {% include 'partial/nav.html' %}
+{% extends 'base.html'%} {% block title %} Home {% endblock %} {% block content
+%}
 
-    <br />
-    <br />
-    <br />
+<br />
+<br />
+<br />
 
-    <h2>Milly's Server</h2>
+<h2>Home</h2>
 
-    <div class="content-1">
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate animi
-      molestiae amet blanditiis ut! Consectetur quos nihil dolores quod
-      veritatis aperiam.
-    </div>
-  </body>
-</html>
+<div class="content-1">
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate animi
+  molestiae amet blanditiis ut! Consectetur quos nihil dolores quod veritatis
+  aperiam.
+</div>
+{% endblock %}

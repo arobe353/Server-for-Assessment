@@ -22,6 +22,14 @@ server.get("/art/", (request, response) => {
   response.render("art");
 });
 
+server.get("/photos/", (request, response) => {
+  response.render("photos");
+});
+
+server.get("/contact/", (request, response) => {
+  response.render("contact");
+});
+
 server.listen(port, () => {
   console.log(
     `Your local server is waiting for requests at 127.0.0.1:${port} or at localhost:${port}`
