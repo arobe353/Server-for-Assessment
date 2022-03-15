@@ -18,12 +18,12 @@ server.get("/", (request, response) => {
   response.render("index");
 });
 
-server.get("/art/", (request, response) => {
-  response.render("art");
+server.get("/inspiration/", (request, response) => {
+  response.render("inspiration");
 });
 
-server.get("/photos/", (request, response) => {
-  response.render("photos");
+server.get("/about/", (request, response) => {
+  response.render("about");
 });
 
 server.get("/contact/", (request, response) => {

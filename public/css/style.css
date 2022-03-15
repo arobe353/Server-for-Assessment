@@ -5,6 +5,7 @@
 body {
   background-color: #91dad0;
   font-family: "Quicksand", sans-serif;
+  height: 400vh;
 }
 
 h2 {
@@ -12,6 +13,11 @@ h2 {
   font-size: 30px;
   font-family: "Bebas Neue", cursive;
   margin: 10px;
+}
+
+p {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .nav-title {
