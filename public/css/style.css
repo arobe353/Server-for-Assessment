@@ -1,11 +1,6 @@
-<!--Theme Colours are on Flat UI Colours US Palette-- > html {
-  height: 400vh;
-}
-
 body {
   background-color: #91dad0;
   font-family: "Quicksand", sans-serif;
-  height: 400vh;
 }
 
 h2 {
@@ -44,6 +39,7 @@ p {
   height: 90px;
   background-color: #57bdaf;
   position: fixed;
+  z-index: 99;
 }
 
 .flex-box {
@@ -84,4 +80,117 @@ p {
 .content-1 {
   margin: 10px;
   color: #469187;
+}
+
+.image-verity {
+  width: 540px;
+  height: 405px;
+  margin-left: 30px;
+  margin-top: 10px;
+  background-image: url("/images/Verity.jpg");
+  background-size: contain;
+}
+
+.image-aurea {
+  width: 540px;
+  height: 405px;
+  margin-left: 30px;
+  margin-top: 10px;
+  background-image: url("/images/Aurea.jpg");
+  background-size: contain;
+}
+
+.image-nyx {
+  width: 540px;
+  height: 405px;
+  margin-left: 30px;
+  margin-top: 10px;
+  background-image: url("/images/Nyx.jpg");
+  background-size: contain;
+}
+
+.image-delivery {
+  width: 540px;
+  height: 405px;
+  margin-left: 30px;
+  margin-top: 10px;
+  background-image: url("/images/Tyson.jpg");
+  background-size: contain;
+}
+
+.image-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  width: 540px;
+  height: 405px;
+  right: 0%;
+  background-color: black;
+  text-align: center;
+  transition: ease-in-out opacity 0.5s;
+  color: white;
+}
+
+.image-title:hover {
+  opacity: 0.3;
+}
+
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.icons {
+  display: flex;
+  margin: 20px;
+  justify-content: space-evenly;
+}
+
+.icons--content {
+  color: #469187;
+  text-decoration: none;
+}
+
+.palette {
+  width: 50%;
+  height: 50px;
+  display: flex;
+  justify-content: stretch;
+  margin: 20px;
+}
+
+.palette--color {
+  width: inherit;
+  height: inherit;
+}
+
+hr {
+  border: 0px;
+  border-top: 1px solid #469187;
+  margin: 50px;
+}
+
+.back-to-top-container {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.back-to-top {
+  width: 150px;
+  height: 30px;
+  background-color: #469187;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  transition: ease-in-out 0.25s color;
+}
+
+.back-to-top:hover {
+  color: #ffffff;
 }
